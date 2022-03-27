@@ -5,19 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <section>
         <nav>
-            <img src="./FES.svg" alt="">
+            <div class="container">
+                <img src="images/FES.svg" alt="">
+                <div class="nav-wrapper">
+                    <a href="About">About</a>
+                    <a href="Discord">Discord</a>
+                    <a href="Contact">Contact</a>
+                </div>
+            </div>
         </nav>
     </section>
     <header>
-        <div>
-            <h1>sds
-                Hello back
-            </h1>
+        <div class="header-wrapper">
+            <div id="header-text">
+                <h1>Best place to learn Frontend</h1>
+                <p>Go from absolute beginner to pro with a simplified process</p>
+                <button type="submit">Start now</button>
+            </div>
+            <div id="image-wrapper">
+                <figure>
+                    <img src="images/laptop.png" alt="">
+                </figure>
+            </div>
         </div>
     </header>
+    <main>
+        <section>
+            <div id="about-container">
+                <h2>About</h1>
+                    <div id="wrapper">
+                        <div id="about-wrapper">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam error cum mollitia, similique, doloremque asperiores nostrum maxime dolorum reiciendis quos earum amet eveniet delectus cupiditate beatae consequatur, perferendis blanditiis velit!
+                            </p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam ea vel facere odio assumenda hic repellat voluptas nostrum temporibus! Optio aperiam voluptate ipsa nesciunt cupiditate eveniet quis. Nam, aspernatur et!</p>
+                        </div>
+                        <div id="img-about">
+                            <img src="images/about.jpg" alt="">
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section>
+            <div id="discord-background">
+                <h2>Discord</h2>
+                <div id="discord-flex">
+                    <img src="images/discord.png" alt="">
+                    <div id="discord-wrapper">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione quaerat modi exercitationem libero, doloribus excepturi non, eos dolores illum dolorem temporibus. Ipsa eaque laudantium illum nihil accusantium officiis, animi incidunt!
+                        </p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam alias ducimus, optio ut a fugiat cupiditate dolor rem deleniti? Quam optio, assumenda quo aspernatur reiciendis delectus mollitia molestias deleniti atque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="contact-background">
+                <h2>Contact</h2>
+                <div id="contact-wrapper">
+                    <label for="email">email</label>
+                    <input type="email" placeholder="valdu59960@hotmail.fr">
+                    <label for="Message">Message</label>
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Type your message"></textarea>
+                    <button>Contact us</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="footer-background">
+                <div id="img-footer">
+                    <img src="images/FES.svg" alt="">
+                </div>
+                <div id="footer-links">
+                    <a href="">About</a>
+                    <a href="">Discord</a>
+                    <a href="">Contact</a>
+                    <a href="">Courses</a>
+                </div>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
