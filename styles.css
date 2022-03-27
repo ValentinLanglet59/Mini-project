@@ -194,3 +194,56 @@ button {
     align-items: center;
     padding: 20px 20px;
 }
+
+@media (max-width: 728px) {
+    .header-wrapper {
+        flex-direction: column;
+        height: 80vh;;
+    }
+
+    #header-text {
+        text-align: center;
+    }
+
+    #header-text p {
+        padding: 10px 10px;
+    }
+
+    #btnsubmit {
+        padding: 10px 10px;
+    }
+
+    figure img {
+        padding-top: 20px;
+    }
+
+    #wrapper {
+        flex-direction: column;
+    }
+
+    #about-wrapper p {
+        font-size: 14px;
+    }
+
+    #img-about img {
+        padding-left: 15px;
+        border-radius: 4px;
+    }
+
+    #discord-flex {
+        flex-direction: column-reverse;
+    }
+
+    #discord-flex img {
+        max-width: 350px;
+    }
+
+    #contact-wrapper {
+        max-width: 250px;
+    }
+
+    #img-footer img {
+        max-width: 150px;
+    }
+
+}
